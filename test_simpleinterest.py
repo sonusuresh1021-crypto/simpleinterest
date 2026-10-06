@@ -1,4 +1,4 @@
-from simple_interest import simple_interest
+from simpleinterest import simple_interest
 
 def test_zero_princpal():
     assert simple_interest(0,2,1) == 0
